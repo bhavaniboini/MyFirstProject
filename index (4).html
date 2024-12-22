@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    
+    <style>
+       /* Please Add All The Styles Here in the Style Tag */
+       body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #007acc;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007acc;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.skill:hover {
+  background-color: #005f99;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+#contact button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#contact button:hover {
+  background-color: #005f99;
+}
+
+#contact-info {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+       
+    </style>
+  </head>
+  <body>
+     <!--Please Code HTML tags Here in the Body Tag-->
+     <header>
+    <h1>Bhavani</h1>
+    <p>Mathematician | Aspiring Fact Checker</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Bhavani, an MSc graduate in Mathematics with a passion for problem-solving and accuracy. I aim to leverage my skills in the Fact-Checking domain.</p>
+    <img src="https://i.ibb.co/1mrLWyg/Screenshot-2024-05-08-131414.png" alt="Screenshot-2024-05-08-131414" border="0"">
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li class="skill">Mathematics</li>
+      <li class="skill">Problem Solving</li>
+      <li class="skill">HTML</li>
+      <li class="skill">CSS</li>
+      <li class="skill">MS Office</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Built a personal portfolio showcasing skills and projects using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>Fact Checker Demo</h3>
+      <p>Developed a basic script to validate the authenticity of news articles using algorithms.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <button id="show-contact">Show Contact Info</button>
+    <p id="contact-info" style="display: none;">
+      Email: bhavani@example.com <br>
+      Phone: +91-9876543210
+    </p>
+
+    </section>
+  </body>
+  <script >
+    // Please Select The HTML Tags Created Above and Attach Events Here
+    document.getElementById('show-contact').addEventListener('click', function () {
+  const contactInfo = document.getElementById('contact-info');
+  contactInfo.style.display = contactInfo.style.display === 'none' ? 'block' : 'none';
+});
+
+  </script>
+</html>

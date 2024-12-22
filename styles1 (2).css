@@ -1,0 +1,81 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #007acc;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007acc;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.skill:hover {
+  background-color: #005f99;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+#contact button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#contact button:hover {
+  background-color: #005f99;
+}
+
+#contact-info {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
